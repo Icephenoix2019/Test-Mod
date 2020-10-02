@@ -19,7 +19,7 @@ const builtin = {
 	tin: "#9fb6cb",
 	solder: {
 		color: "#dad6d4",
-		mask: "resources-ingot-dull"
+		mask: "icemod-ingot-dull"
 	}
 };
 
