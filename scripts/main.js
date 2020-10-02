@@ -14,8 +14,8 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-if (this.global.resources === undefined) {
-	this.global.resources = {};
+if (this.global.icemod === undefined) {
+	this.global.icemod = {};
 	require("icemod/library");
 	require("builtin");
 }
