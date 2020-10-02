@@ -15,7 +15,7 @@
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 const PixmapTextureData = Packages.arc.graphics.gl.PixmapTextureData;
-const res = this.global.resources;
+const res = this.global.icemod;
 
 const error = Color.valueOf("#ff00ff");
 
@@ -83,11 +83,11 @@ res.add = function(name, mask, color, def){
 		for(itemname in items){
 			obj = items[itemname];
 			color = obj;
-			mask = "resources-ingot-shiny";
+			mask = "icemod-ingot-shiny";
 			def = {};
 			if(typeof(obj) === "object"){
 				color = obj.color || error;
-				mask = obj.mask || "resources-ingot-shiny",
+				mask = obj.mask || "icemod-ingot-shiny",
 				def = obj.def || def;
 			}
 
@@ -122,4 +122,4 @@ res.add = function(name, mask, color, def){
 }
 
 module.exports = res
-this.global.resources = res
+this.global.icemod = res
