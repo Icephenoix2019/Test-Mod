@@ -23,4 +23,4 @@ const builtin = {
 	}
 };
 
-this.global.resources.add(builtin);
+this.global.icemod.add(builtin);
