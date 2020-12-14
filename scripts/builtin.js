@@ -20,7 +20,7 @@ const builtin = {
 	solder: {
 		color: "#dad6d4",
 		mask: "icemod-ingot-dull"
-	}
+	},
 	testround: {
 		color: "#ff0000",
 		mask: "bullet"
