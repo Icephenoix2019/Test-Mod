@@ -23,7 +23,7 @@ const builtin = {
 	},
 	testround: {
 		color: "#ff0000",
-		mask: "bullet"
+		mask: "icemod-bullet"
 	}
 };
 
