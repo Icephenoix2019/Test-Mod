@@ -3,5 +3,6 @@
     "itemDrop": "tin",
     "oreDefault": false,
     "oreThreshold": 0.921,
-    "oreScale": 26.1234
+    "oreScale": 26.1234,
+    "variants": 3
 }
