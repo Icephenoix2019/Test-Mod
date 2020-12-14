@@ -16,7 +16,7 @@
 */
 const builtin = {
 	bronze: "#c26726",
-	tin: "#9fb6cb",
+	tin: "#faf889",
 	solder: {
 		color: "#dad6d4",
 		mask: "icemod-ingot-dull"
