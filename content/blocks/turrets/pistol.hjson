@@ -3,24 +3,25 @@ name: Pistol
 description: Uses bullets that are made from factories and uses them for ammo.
 health: 1000
 size: 1
-reload: 2
+reload: 10
 range: 150
 ammoUseEffect: shellEjectSmall
 inaccuracy: 5
 rotatespeed: 30
 ammo: {
-  testround: {
+  copperround: {
     speed: 10
     damage: 6
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 10
+    ammoMultiplier: 15
   }
-  tin: {
+  tinround: {
     speed: 8
     damage: 4
+    reloadMultiplier: 0.75
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
