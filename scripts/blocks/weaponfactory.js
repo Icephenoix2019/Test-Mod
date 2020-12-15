@@ -1,5 +1,5 @@
 const multiLib=require("multi-lib2/wrapper");
-const weaponFactory=multiLib.extend(GenericCrafter,"weaponfactory",
+const weaponFactory=multiLib.extend(GenericCrafter,"weapon-factory",
 [
   {
     input:{
