@@ -36,6 +36,14 @@ const builtin = {
 	magic: {
 		color: "#cc0066",
 		mask: "icemod-flask-half"
+	},
+	poison: {
+		color: "#009900",
+		mask: "icemod-flask-full"
+	},
+	coppergear: {
+		color: "#e68a00",
+		mask: "icemod-gear"
 	}
 };
 
