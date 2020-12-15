@@ -1,7 +1,8 @@
 {
 	"name": "icemod",
-	"displayName": "[royal]Ice's mod[]",
+	"displayName": "[royal]Ice's mod V6![]",
 	"author": "Icephenoix2019",
-	"description": "Testing some things :)",
-	"version": "0.1.0"
+	"description": "Testing some things, I think I got first release down! :)",
+	"version": "0.2.0",
+        "minGameVersion": "120",
 }
