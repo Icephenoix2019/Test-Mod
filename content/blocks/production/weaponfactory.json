@@ -2,14 +2,14 @@ name: Weapon Factory
 description: Produces bullets for machinegun-type turrets.
 hasPower: true
 hasItems: true
-hasLiquids:false
+hasLiquids: false
 health: 600
 size: 3
 requirements: [
   lead/50
   copper/50
-  silicon/20
-  coal/50
+  tin/50
+  coal/30
 ]
 itemCapacity: 20
 category: crafting
