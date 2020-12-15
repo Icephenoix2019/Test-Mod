@@ -32,6 +32,10 @@ const builtin = {
 	copperround: {
 		color: "#e68a00",
 		mask: "icemod-bullet"
+	},
+	magic: {
+		color: "#cc0066",
+		mask: "icemod-flask-half"
 	}
 };
 
