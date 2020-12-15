@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Weapon Factory
 description: Produces bullets for machinegun-type turrets.
 health: 600
