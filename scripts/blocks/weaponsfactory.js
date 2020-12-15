@@ -17,7 +17,7 @@ const weaponsFactory=multiLib.extend(GenericCrafter,"weapons-factory",
       power:0
     },
     output:{
-      items:["steam-power-armor-piercing-shell/2"]
+      items:["icemod-tinround/2"]
     },
     craftTime:10
   },
