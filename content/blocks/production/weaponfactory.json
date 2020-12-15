@@ -1,13 +1,12 @@
-category: crafting
-requirements:[
-  silicon/20
-  graphite/30
-  bronze/30
-  coal/10
-]
-itemCapacity: 20
+name: Weapon Factory
+description: Produces bullets for machinegun-type turrets.
+health: 600
 size: 3
-health: 500
-craftEffect: none
-updateEffect: none
-research: pyratite-mixer
+requirements: [
+  lead/50
+  copper/50
+  silicon/20
+  coal/50
+]
+category: crafting
+research: duo
