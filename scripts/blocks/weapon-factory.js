@@ -26,5 +26,5 @@ setBars() {
         this.super$setBars();
         //initialize
         this.bars.remove("liquid");
-},{});
+}},{});
 weaponFactory.dumpToggle=false;
