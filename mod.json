@@ -3,5 +3,6 @@
 	"displayName": "[royal]Ice's mod V6![]",
 	"author": "Icephenoix2019",
 	"description": "Testing some things, I think I got first release down! :)",
-	"version": "0.2.0"
+	"version": "0.2.0",
+        "dependencies": "multi-lib"
 }
