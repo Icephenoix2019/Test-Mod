@@ -18,5 +18,5 @@ if (this.global.icemod === undefined) {
 	this.global.icemod = {};
 	require("icemod/library");
 	require("icemod/blocks/weaponfactory");
-	require("items");
+	require("icemod/items");
 }
