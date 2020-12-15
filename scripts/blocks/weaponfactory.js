@@ -4,6 +4,7 @@ const weaponFactory=multiLib.extend(GenericCrafter,"weaponfactory",
   {
     input:{
       items:["copper/2","coal/1"],
+      power: 2
     },
     output:{
       items:["icemod-copperround/2"]
@@ -13,6 +14,7 @@ const weaponFactory=multiLib.extend(GenericCrafter,"weaponfactory",
   {
     input:{
       items:["icemod-tin/2","coal/1"],
+      power: 2
     },
     output:{
       items:["icemod-tinround/2"]
