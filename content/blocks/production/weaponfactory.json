@@ -2,7 +2,7 @@ name: Weapon Factory
 description: Produces bullets for machinegun-type turrets.
 hasPower: true
 hasItems: true
-hasLiquids: false
+hasLiquids:false
 health: 600
 size: 3
 requirements: [
