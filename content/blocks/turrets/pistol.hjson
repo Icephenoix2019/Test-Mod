@@ -16,7 +16,7 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 15
+    ammoMultiplier: 25
   }
   tinround: {
     speed: 8
@@ -26,7 +26,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 15
+    ammoMultiplier: 40
   }
 }
 requirements: [
