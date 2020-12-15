@@ -8,5 +8,8 @@ requirements: [
   silicon/20
   coal/50
 ]
+itemCapacity: 20
 category: crafting
+craftEffect: none
+updateEffect: none
 research: duo
