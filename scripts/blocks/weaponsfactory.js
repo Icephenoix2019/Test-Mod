@@ -1,5 +1,5 @@
 const multiLib=require("multi-lib2/wrapper");
-const bulletsFactory=multiLib.extend(GenericCrafter,"bullets-factory",
+const weaponsFactory=multiLib.extend(GenericCrafter,"weapons-factory",
 [
   {
     input:{
@@ -22,4 +22,4 @@ const bulletsFactory=multiLib.extend(GenericCrafter,"bullets-factory",
     craftTime:10
   },
 ],{},{});
-bulletsFactory.dumpToggle=false;
+weaponsFactory.dumpToggle=false;
