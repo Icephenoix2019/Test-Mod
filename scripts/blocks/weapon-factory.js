@@ -21,10 +21,12 @@ const weaponFactory=multiLib.extend(GenericCrafter,"weapon-factory",
     },
     craftTime:10
   },
-],{    
+],
+{    
 setBars() {
         this.super$setBars();
         //initialize
         this.bars.remove("liquid");
-}},{});
+}
+},{});
 weaponFactory.dumpToggle=false;
