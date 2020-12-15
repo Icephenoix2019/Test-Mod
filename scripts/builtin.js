@@ -24,6 +24,14 @@ const builtin = {
 	testround: {
 		color: "#ff0000",
 		mask: "icemod-bullet"
+	},
+	tinround: {
+		color: "#fdfd9b",
+		mask: "icemod-bullet-thin"
+	},
+	copperround: {
+		color: "#e68a00",
+		mask: "icemod-bullet"
 	}
 };
 
