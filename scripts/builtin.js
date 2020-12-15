@@ -14,7 +14,7 @@
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-const builtin = {
+const items = {
 	bronze: "#c26726",
 	tin: "#faf889",
 	solder: {
@@ -47,4 +47,4 @@ const builtin = {
 	}
 };
 
-this.global.icemod.add(builtin);
+this.global.icemod.add(items);
