@@ -1,5 +1,7 @@
 {
 	"name": "Wooden Log",
 	"type": "Rock",
-	"variants": 0
+	"variants": 0,
+        "breakable": false,
+        "alwaysReplace": false
 }
