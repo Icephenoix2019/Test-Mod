@@ -21,7 +21,7 @@ ammo: {
   tinround: {
     speed: 12
     damage: 7
-    reloadMultiplier: 0.75
+    reloadMultiplier: 1.50
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
@@ -44,14 +44,14 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 20
-    reloadMultiplier: 1.50
+    reloadMultiplier: 0.50
   }
   hominground: {
     speed: 8
     damage: 5
     frontColor: ff0066
     backColor: 990099
-    reloadMultiplier: 0.65
+    reloadMultiplier: 1.60
     homingPower: 0.35
     homingRange: 30
     bulletWidth: 6
