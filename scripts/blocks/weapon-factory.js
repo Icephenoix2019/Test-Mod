@@ -41,5 +41,15 @@ const weaponFactory=multiLib.extend(GenericCrafter,"weapon-factory",
     },
     craftTime:20
   },
+  {
+    input:{
+      items:["icemod-poison/1","metaglass/2","coal/1"],
+      power: 2
+    },
+    output:{
+      items:["icemod-poisonround/2"]
+    },
+    craftTime:30
+  },
 ],{},{});
 weaponFactory.dumpToggle=false;
