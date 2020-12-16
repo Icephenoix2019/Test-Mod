@@ -44,7 +44,7 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 20
-    reloadMultiplier: 1.25
+    reloadMultiplier: 1.50
   }
   hominground: {
     speed: 8
