@@ -12,29 +12,29 @@ maxAmmo: 50
 ammo: {
   copperround: {
     speed: 10
-    damage: 10
+    damage: 20
     bulletWidth: 8
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 25
+    ammoMultiplier: 10
   }
   tinround: {
     speed: 12
-    damage: 7
+    damage: 15
     reloadMultiplier: 1.50
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 40
+    ammoMultiplier: 25
   }
   explosiveround: {
     type: MissileBulletType
     lifetime: 90
-    splashDamageRadius: 3
-    splashDamage: 12
-    damage: 20
+    splashDamageRadius: 5
+    splashDamage: 16
+    damage: 30
     frontColor: ff0000
     backColor: ff6600
     knockback: 1
@@ -44,14 +44,14 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 15
+    ammoMultiplier: 10
     reloadMultiplier: 0.50
   }
   hominground: {
     type: BasicBulletType
     lifetime: 120
-    speed: 8
-    damage: 5
+    speed: 12
+    damage: 10
     frontColor: ff0066
     backColor: 990099
     reloadMultiplier: 1.60
@@ -62,6 +62,27 @@ ammo: {
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 50
+  }
+  poisonround: {
+    speed: 10
+    damage: 10
+    frontColor: 66ff66
+    backColor: 1aff1a
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 25
+    statusDuration: 300
+    reloadMultiplier: 0.50
+    status: {
+        name: PoisonEffectMinor
+        speedMultiplier: 0.4
+        armorMultiplier: 0.8
+        damage: 8
+        color: 006600
+        effect: lightningShoot
+      }
   }
 }
 requirements: [
