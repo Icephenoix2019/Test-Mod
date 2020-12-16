@@ -9,7 +9,7 @@ const weaponFactory=multiLib.extend(GenericCrafter,"weapon-factory",
     output:{
       items:["icemod-copperround/2"]
     },
-    craftTime:15
+    craftTime:30
   },
   {
     input:{
@@ -19,7 +19,27 @@ const weaponFactory=multiLib.extend(GenericCrafter,"weapon-factory",
     output:{
       items:["icemod-tinround/2"]
     },
-    craftTime:10
+    craftTime:20
+  },
+  {
+    input:{
+      items:["blast-compound/1","titanium/2","coal/1"],
+      power: 4
+    },
+    output:{
+      items:["icemod-explosiveround/2"]
+    },
+    craftTime:40
+  },
+  {
+    input:{
+      items:["icemod-magic/1","metaglass/2","coal/1"],
+      power: 2
+    },
+    output:{
+      items:["icemod-hominground/2"]
+    },
+    craftTime:20
   },
 ],{},{});
 weaponFactory.dumpToggle=false;
