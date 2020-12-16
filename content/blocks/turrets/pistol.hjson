@@ -37,6 +37,7 @@ ammo: {
     frontColor: ff0000
     backColor: ff6600
     knockback: 1
+    homingPower: 0
     speed: 8
     bulletWidth: 8
     bulletHeight: 10
