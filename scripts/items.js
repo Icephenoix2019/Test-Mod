@@ -15,12 +15,7 @@
 	along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 const items = {
-	bronze: "#c26726",
 	tin: "#faf889",
-	solder: {
-		color: "#dad6d4",
-		mask: "icemod-ingot-dull"
-	},
 	testround: {
 		color: "#ff0000",
 		mask: "icemod-bullet"
@@ -44,6 +39,14 @@ const items = {
 	coppergear: {
 		color: "#e68a00",
 		mask: "icemod-gear"
+	},
+	explosiveround: {
+		color: "#ff8533",
+		mask: "icemod-bullet"
+	},
+	hominground: {
+		color: "#cc6699",
+		mask: "icemod-bullet-thin"
 	}
 };
 
