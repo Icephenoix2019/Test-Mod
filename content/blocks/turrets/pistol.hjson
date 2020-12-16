@@ -47,6 +47,8 @@ ammo: {
     reloadMultiplier: 0.50
   }
   hominground: {
+    type: BasicBulletType
+    lifetime: 120
     speed: 8
     damage: 5
     frontColor: ff0066
