@@ -16,36 +16,48 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 25
+    ammoMultiplier: 30
   }
   tinround: {
-    speed: 8
-    damage: 5
+    speed: 12
+    damage: 7
     reloadMultiplier: 0.75
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 40
+    ammoMultiplier: 50
   }
   explosiveround: {
-    speed: 10
-    damage: 10
+    type: missileExplosive
+    lifetime: 90
+    splashDamageRadius: 3
+    splashDamage: 12
+    damage: 20
+    frontColor: ff0000
+    backColor: ff6600
+    knockback: 1
+    speed: 8
     bulletWidth: 8
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 25
+    ammoMultiplier: 20
+    reloadMultiplier: 1.25
   }
   hominground: {
     speed: 8
     damage: 5
-    reloadMultiplier: 0.75
-    bulletWidth: 7
-    bulletHeight: 9
+    frontColor: ff0066
+    backColor: 990099
+    reloadMultiplier: 0.65
+    homingPower: 0.35
+    homingRange: 30
+    bulletWidth: 6
+    bulletHeight: 8
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 40
+    ammoMultiplier: 45
   }
 }
 requirements: [
