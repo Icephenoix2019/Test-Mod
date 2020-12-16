@@ -16,7 +16,7 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 20
   }
   tinround: {
     speed: 12
@@ -26,7 +26,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 50
+    ammoMultiplier: 30
   }
   explosiveround: {
     type: MissileBulletType
@@ -43,7 +43,7 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 20
+    ammoMultiplier: 10
     reloadMultiplier: 0.50
   }
   hominground: {
@@ -60,7 +60,7 @@ ammo: {
     bulletHeight: 8
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 45
+    ammoMultiplier: 30
   }
 }
 requirements: [
