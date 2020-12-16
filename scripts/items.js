@@ -47,6 +47,10 @@ const items = {
 	hominground: {
 		color: "#cc6699",
 		mask: "icemod-bullet-thin"
+	},
+        poisonround: {
+		color: "#009900",
+		mask: "icemod-bullet-thin"
 	}
 };
 
