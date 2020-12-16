@@ -29,7 +29,7 @@ ammo: {
     ammoMultiplier: 50
   }
   explosiveround: {
-    type: missileExplosive
+    type: MissileBulletType
     lifetime: 90
     splashDamageRadius: 3
     splashDamage: 12
