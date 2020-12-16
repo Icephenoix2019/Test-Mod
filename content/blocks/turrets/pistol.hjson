@@ -28,6 +28,25 @@ ammo: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 40
   }
+  explosiveround: {
+    speed: 10
+    damage: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 25
+  }
+  hominground: {
+    speed: 8
+    damage: 5
+    reloadMultiplier: 0.75
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 40
+  }
 }
 requirements: [
   lead/150
