@@ -8,6 +8,7 @@ range: 150
 ammoUseEffect: shellEjectSmall
 inaccuracy: 5
 rotatespeed: 30
+maxAmmo: 50
 ammo: {
   copperround: {
     speed: 10
@@ -16,7 +17,7 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 20
+    ammoMultiplier: 25
   }
   tinround: {
     speed: 12
@@ -26,7 +27,7 @@ ammo: {
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 40
   }
   explosiveround: {
     type: MissileBulletType
@@ -43,7 +44,7 @@ ammo: {
     bulletHeight: 10
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 10
+    ammoMultiplier: 15
     reloadMultiplier: 0.50
   }
   hominground: {
@@ -60,7 +61,7 @@ ammo: {
     bulletHeight: 8
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 30
+    ammoMultiplier: 50
   }
 }
 requirements: [
