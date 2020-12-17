@@ -1,4 +1,4 @@
-type: ItemTurret
+type: DoubleTurret
 name: Sniper
 description: Uses bullets that are made from factories and uses them for ammo. Slow, but deals tons of damage.
 health: 1000
@@ -91,4 +91,4 @@ requirements: [
   tin/200
 ]
 category: turret
-research: icemod-pistol
+research: duo
