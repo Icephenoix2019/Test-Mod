@@ -1,4 +1,4 @@
-type: Turret
+type: ItemTurret
 name: Sniper
 description: Uses bullets that are made from factories and uses them for ammo. Slow, but deals tons of damage.
 health: 1000
