@@ -6,7 +6,7 @@ size: 2
 reload: 180
 range: 225
 ammoUseEffect: shellEjectSmall
-inaccuracy: 2
+inaccuracy: 1
 rotatespeed: 40
 maxAmmo: 10
 ammo: {
@@ -91,4 +91,4 @@ requirements: [
   tin/200
 ]
 category: turret
-research: pistol
+research: icemod-pistol
