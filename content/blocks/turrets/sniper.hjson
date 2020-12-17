@@ -1,0 +1,94 @@
+type: Turret
+name: Sniper
+description: Uses bullets that are made from factories and uses them for ammo. Slow, but deals tons of damage.
+health: 1000
+size: 2
+reload: 180
+range: 225
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 40
+maxAmmo: 10
+ammo: {
+  copperround: {
+    speed: 20
+    damage: 50
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+  }
+  tinround: {
+    speed: 22
+    damage: 30
+    reloadMultiplier: 1.25
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  explosiveround: {
+    type: MissileBulletType
+    lifetime: 90
+    splashDamageRadius: 7
+    splashDamage: 22
+    damage: 70
+    frontColor: ff0000
+    backColor: ff6600
+    knockback: 2
+    homingPower: 0
+    speed: 20
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.75
+  }
+  hominground: {
+    type: BasicBulletType
+    lifetime: 120
+    speed: 18
+    damage: 35
+    frontColor: ff0066
+    backColor: 990099
+    reloadMultiplier: 1.30
+    homingPower: 0.35
+    homingRange: 30
+    bulletWidth: 6
+    bulletHeight: 8
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  poisonround: {
+    speed: 20
+    damage: 40
+    frontColor: 66ff66
+    backColor: 1aff1a
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    statusDuration: 300
+    reloadMultiplier: 0.75
+    status: {
+        name: PoisonEffectMedium
+        speedMultiplier: 0.5
+        armorMultiplier: 0.7
+        damage: 12
+        color: 006600
+        effect: lightningShoot
+      }
+  }
+}
+requirements: [
+  lead/200
+  copper/200
+  tin/200
+]
+category: turret
+research: pistol
