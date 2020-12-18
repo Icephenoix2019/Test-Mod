@@ -2,6 +2,6 @@
 	"name": "Warped Log",
 	"type": "Rock",
 	"variants": 0,
-  "breakable": false,
-  "alwaysReplace": false
+        "breakable": false,
+        "alwaysReplace": false
 }
