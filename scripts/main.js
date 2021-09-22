@@ -16,7 +16,7 @@
 */
 if (this.global.icemod === undefined) {
 	this.global.icemod = {};
-	require("icemod/library.js");
-	require("blocks/weapon-factory.js");
-	require("icemod/items.js");
+	require("icemod/scripts/library");
+	require("icemod/blocks/weapon-factory.js");
+	require("icemod/scripts/items.js");
 }
